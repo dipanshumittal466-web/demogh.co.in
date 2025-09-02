@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -10,14 +9,13 @@ const config: Config = {
       colors: {
         brand: {
           DEFAULT: "#0ea5e9",
-          dark: "#0284c7"
-        }
+          dark: "#0284c7",
+        },
       },
       boxShadow: {
-        soft: "0 10px 35px rgba(2,132,199,0.12)"
-      }
+        soft: "0 10px 35px rgba(2,132,199,0.12)",
+      },
     },
   },
   plugins: [],
-};
-export default config;
+}
