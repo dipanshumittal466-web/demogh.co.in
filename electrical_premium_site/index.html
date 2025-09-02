@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mittal Electricals — Professional Electrical & Solar (2025)</title>
+  <meta name="description" content="Professional electrical services: home wiring, industrial setup, solar solutions. Fast, secure, and modern — Mittal Electricals." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          boxShadow: { 'soft': '0 10px 30px rgba(0,0,0,0.08)' }
+        }
+      }
+    }
+  </script>
+  <style>
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.show { opacity: 1; transform: translateY(0); }
+    .glass { backdrop-filter: blur(8px); background: rgba(255,255,255,.6); }
+    .dark .glass { background: rgba(17,24,39,.6); }
+  </style>
+
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100">
+
+  <nav class="fixed top-0 inset-x-0 z-50 bg-white/80 dark:bg-gray-900/80 glass border-b border-gray-200/60 dark:border-gray-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-bold text-xl text-yellow-600 dark:text-yellow-400">⚡ Mittal Electricals</a>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html#services" class="hover:text-yellow-600 dark:hover:text-yellow-400">Services</a>
+        <a href="projects.html" class="hover:text-yellow-600 dark:hover:text-yellow-400">Projects</a>
+        <a href="team.html" class="hover:text-yellow-600 dark:hover:text-yellow-400">Team</a>
+        <a href="testimonials.html" class="hover:text-yellow-600 dark:hover:text-yellow-400">Testimonials</a>
+        <a href="index.html#contact" class="px-3 py-1.5 rounded-full bg-yellow-500 text-white hover:bg-yellow-600 shadow-soft">Get Quote</a>
+        <button id="themeToggle" aria-label="Toggle dark mode" class="px-2 py-1 rounded border border-gray-300 dark:border-gray-700">🌓</button>
+      </div>
+      <button id="menuBtn" class="md:hidden px-3 py-2 border rounded">☰</button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4 space-y-2">
+      <a href="index.html#services" class="block">Services</a>
+      <a href="projects.html" class="block">Projects</a>
+      <a href="team.html" class="block">Team</a>
+      <a href="testimonials.html" class="block">Testimonials</a>
+      <a href="index.html#contact" class="block">Get Quote</a>
+      <button id="themeToggleMobile" class="px-2 py-1 rounded border">🌓 Theme</button>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <header class="relative pt-24">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-yellow-100 via-white to-white dark:from-gray-900 dark:via-gray-950 dark:to-gray-950"></div>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div class="reveal">
+          <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">Powering Homes & Industries</h1>
+          <p class="mt-5 text-lg text-gray-600 dark:text-gray-300">Certified electricians for wiring, solar, and industrial panels. On-time delivery, safety-first execution, and 24×7 support.</p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="#contact" class="px-6 py-3 rounded-full bg-yellow-500 hover:bg-yellow-600 text-white shadow-soft">Get a Free Quote</a>
+            <a href="projects.html" class="px-6 py-3 rounded-full border border-gray-300 dark:border-gray-700">View Projects</a>
+          </div>
+          <div class="mt-6 flex items-center gap-6 text-sm text-gray-600 dark:text-gray-300">
+            <div>✅ Licensed & Insured</div>
+            <div>✅ 100+ installs</div>
+            <div>✅ 5-year workmanship warranty</div>
+          </div>
+        </div>
+        <div class="reveal">
+          <img class="w-full rounded-2xl shadow-soft"
+               alt="Electrician working on an industrial control panel"
+               src="https://images.unsplash.com/photo-1581091014534-0474b1c8d1d5?q=80&w=1600&auto=format&fit=crop" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-white dark:bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="reveal rounded-2xl p-6 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-soft">
+          <h3 class="text-xl font-semibold mb-2">🏠 Home Wiring & Renovation</h3>
+          <p class="text-gray-600 dark:text-gray-300">New builds, rewiring, MCB/DB upgrades, smart switches, safety audits.</p>
+        </div>
+        <div class="reveal rounded-2xl p-6 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-soft">
+          <h3 class="text-xl font-semibold mb-2">🏭 Industrial Panels & AMC</h3>
+          <p class="text-gray-600 dark:text-gray-300">LT panels, MCC, VFD commissioning, preventive maintenance & annual contracts.</p>
+        </div>
+        <div class="reveal rounded-2xl p-6 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-soft">
+          <h3 class="text-xl font-semibold mb-2">💡 Solar EPC & Energy Audit</h3>
+          <p class="text-gray-600 dark:text-gray-300">Rooftop/on-grid solar, net metering, subsidy guidance, ROI planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal rounded-2xl bg-gradient-to-r from-yellow-500 to-orange-600 text-white p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <p class="text-2xl font-semibold">Need urgent electrical help? We offer 24×7 support.</p>
+        <a href="tel:7668420528" class="px-6 py-3 rounded-full bg-white text-yellow-700 hover:bg-gray-100">Call Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact (Netlify form) -->
+  <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div class="reveal">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Get a Free Site Visit</h2>
+          <p class="text-gray-600 dark:text-gray-300 mb-6">Fill the form and our engineer will contact you within 1 business hour.</p>
+          <form name="contact" method="POST" data-netlify="true" class="space-y-4">
+            <input type="hidden" name="form-name" value="contact">
+            <input required name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800" />
+            <input required name="phone" placeholder="Phone" class="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800" />
+            <input name="email" type="email" placeholder="Email (optional)" class="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800" />
+            <textarea required name="message" rows="4" placeholder="Tell us about your requirement" class="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"></textarea>
+            <button class="px-6 py-3 rounded-full bg-yellow-500 hover:bg-yellow-600 text-white shadow-soft">Submit</button>
+          </form>
+        </div>
+        <div class="reveal">
+          <img class="w-full rounded-2xl shadow-soft"
+               alt="Solar panels installation on rooftop"
+               src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop" />
+          <div class="mt-6 text-gray-600 dark:text-gray-300">
+            <p>📍 Service Areas: City & suburbs</p>
+            <p>🕘 Working Hours: 9 AM – 8 PM (Mon–Sat)</p>
+            <p>📞 Hotline: <a class="text-yellow-600 dark:text-yellow-400" href="tel:7668420528">7668420528</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="mt-24 border-t border-gray-200 dark:border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-gray-600 dark:text-gray-300 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© 2025 Mittal Electricals. All rights reserved.</p>
+      <p>📧 <a class="text-yellow-600 dark:text-yellow-400" href="mailto:dipanshumittal466@gmail.com">dipanshumittal466@gmail.com</a> · 📞 <a class="text-yellow-600 dark:text-yellow-400" href="tel:7668420528">7668420528</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
